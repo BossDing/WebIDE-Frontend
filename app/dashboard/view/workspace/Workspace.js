@@ -28,7 +28,7 @@ class Workspace extends Component {
                 {showWelcome && <Intro handler={this.handleWelcome} />}
                 <div className="card-box">
                     <NewWs />
-                    <NewPlugin />
+                    {/* <NewPlugin /> */}
                 </div>
                 <div className="created">
                     <div className="caption">
